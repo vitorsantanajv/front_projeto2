@@ -1,0 +1,119 @@
+:root {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(120deg, #8799ff, #b9d2ff); 
+    min-height: 100vh;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    color: #0c0c0c;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+h2, h4 {
+    color: #34495e;
+}
+
+
+.container {
+    margin: 20px auto;
+    padding: 15px;
+    width: 50%; /* Largura do container reduzida */
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex; /* Usando flexbox para alinhamento */
+    align-items: center; /* Alinha verticalmente o conteúdo */
+}
+
+.container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    flex: 1; /* Faz o texto ocupar o máximo de espaço possível */
+    text-align: left; /* Alinha o texto à esquerda */
+    margin-right: 15px; /* Adiciona espaço entre o texto e a imagem */
+}
+
+.content img {
+    max-width: 20%; /* Tamanho da imagem */
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain; /* Garante que a imagem se ajuste corretamente */
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Adiciona espaçamento acima do botão */
+    text-decoration: none;
+    transition: background-color 0.3s;
+    display: block; /* Garante que o botão fique abaixo do texto */
+    margin-top: 20px; /* Ajusta o espaçamento para o botão */
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+.content {
+  display: flex;
+  align-items: center; /* Alinha imagem e texto no centro verticalmente */
+}
+
+#up {
+  width: 180px; /* Largura da imagem */
+  height: auto;
+  border-radius: 15%; /* Bordas arredondadas */
+  margin-right: 20px; /* Espaço entre a imagem e o texto */
+}
+
+#grafico1 {
+  width: 600px; /* Largura do gráfico (se necessário) */
+  margin-left: 24px;
+}
+
+.container, .container1 {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  width: 80%; /* Pode ajustar para reduzir o tamanho */
+  max-width: 950px;
+  margin: 20px auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  background-color: #8799ff;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: 1px;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #49548f;
+}

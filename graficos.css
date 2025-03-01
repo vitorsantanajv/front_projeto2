@@ -1,0 +1,53 @@
+:root {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(120deg, #8799ff, #b9d2ff); 
+    min-height: 100vh;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1, h4 {
+    color: #333;
+}
+
+.image-container {
+    display: flex;  /* Usando flexbox para exibir as imagens lado a lado */
+    justify-content: center; /* Centraliza as imagens */
+    margin: 20px;
+}
+
+#grafico-crianca, #grafico-idoso {
+    width: 600px; /* Definindo um tamanho padrão para as imagens */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin: 0 10px;  /* Espaçamento entre as imagens */
+}
+
+#grafico-crianca:hover, #grafico-idoso:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
